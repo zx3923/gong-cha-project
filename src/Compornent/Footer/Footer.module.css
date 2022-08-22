@@ -1,0 +1,113 @@
+.Footer {
+  width: 100%;
+  height: 166px;
+  bottom: 0;
+  display: flex;
+}
+.Footer::before {
+  display: block;
+  content: "";
+  width: 50%;
+  height: 166px;
+  left: 0;
+  bottom: 0;
+  background: rgb(43, 43, 43);
+}
+
+.Footer::after {
+  display: block;
+  content: "";
+  width: 50%;
+  height: 166px;
+  right: 0;
+  bottom: 0;
+  background: rgb(146, 146, 146);
+}
+
+.InnerFooter {
+  width: 1200px;
+  height: 166px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.InnerFooterLeft {
+  width: 300px;
+  height: 166px;
+  background: rgb(43, 43, 43);
+  display: flex;
+  align-items: flex-end;
+}
+.InnerFooterLeft > .logo {
+  width: 100px;
+  height: 90px;
+  background: url(./img/ft_logo.png);
+  background-size: cover;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
+.InnerFooterLeft > .contnent {
+  font-size: 12px;
+  line-height: 16px;
+  color: #b5b4b4;
+  margin-bottom: 40px;
+}
+
+.InnerFooterRight {
+  width: 900px;
+  height: 166px;
+  background: rgb(146, 146, 146);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.InnerFooterRight > .first {
+  margin-left: 30px;
+}
+
+.InnerFooterRight > .first > ul > li {
+  border-left: 1px solid rgb(43, 43, 43);
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+}
+.InnerFooterRight > .first > ul > li:first-child {
+  border-left: none;
+}
+.InnerFooterRight > .first > ul > li:nth-child(4) {
+  font-size: 18px;
+}
+
+.InnerFooterRight > .first > ul > li > a {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.InnerFooterRight > .first > ul > li:first-child > a {
+  padding-left: 0;
+}
+
+.InnerFooterRight > .center {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.InnerFooterRight > .last {
+  margin-top: 5px;
+  margin-left: 30px;
+  font-size: 13px;
+}
+
+.InnerFooterRight > .last > ul > li {
+  border-left: 1px solid rgb(43, 43, 43);
+  display: inline-block;
+  /* margin-bottom: 10px; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.InnerFooterRight > .last > ul > li:first-child {
+  border-left: none;
+  padding-left: 0;
+}

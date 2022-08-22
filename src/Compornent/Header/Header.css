@@ -1,0 +1,100 @@
+.topBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(https://www.gong-cha.co.kr/view/gongcha/images/common/header_bg.png)
+    0 1px repeat-x;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.topBar:hover {
+  height: 380px;
+}
+
+/* topBarMenu */
+
+.topBarMenu > ul > li > a {
+  padding: 0 30px;
+  font-size: 1.05rem;
+  position: relative;
+  text-align: center;
+}
+
+.topBarMenu > ul ul {
+  margin-top: 10px;
+}
+
+.topBarMenu > ul ul > li {
+  padding: 7px 0;
+  color: #cccccc;
+  font-size: 15px;
+}
+
+.topBarMenu > ul ul > li:hover > a {
+  color: #cf3e58;
+}
+
+.topBarMenu > ul > li > a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #cf3e58;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s;
+}
+
+.topBarMenu > ul > li > a:hover::after {
+  width: 100%;
+}
+
+.ko {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* SNS topBarSns */
+.topBarSns > ul > li > a {
+  margin: 0 9px;
+}
+
+.topBarSns > ul > li > a:hover {
+  color: #cf3e58;
+}
+
+/* 가맹점 문의 topBarFranchisee */
+.topBarFranchisee {
+  background-color: #392e2c;
+  padding: 20px 20px 5px 20px;
+  border-radius: 0 0 20px 20px;
+  height: 95px;
+}
+
+.topBarFranchisee:hover {
+  background-color: #983b43;
+}
+
+.topBarFranchisee > a > div > span {
+  line-height: 23px;
+  font-size: 1.1rem;
+}
+.topBarFranchisee > a > div > span > img {
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
+
+.QuickMenu {
+  position: fixed;
+  top: 50%;
+  right: 30px;
+  width: 79px;
+  margin: -230px 0 0;
+  z-index: 1;
+}

@@ -1,0 +1,263 @@
+.banner {
+  height: 850px;
+  width: 2560px;
+  border: 2px solid red;
+}
+.bannerMenu {
+  margin-top: -50px;
+  width: 1200px;
+  height: 50px;
+  border: 2px solid red;
+}
+.bannerMenu > ul {
+  height: 50px;
+  display: flex;
+}
+.bannerMenu > ul > li {
+  width: 300px;
+  height: 100%;
+  display: flex;
+}
+
+.bannerMenu > ul > li > a {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
+}
+
+.bannerMenu > ul > li > a:active {
+  background: #983b43;
+  color: #ffffff;
+}
+
+.ContentsWrap {
+  background: #983b43;
+  height: 1350px;
+  width: 1200px;
+}
+
+.ContentsFirst {
+  background: #eba6ab;
+  height: calc(100% / 3);
+  width: 100%;
+  display: flex;
+}
+
+.ContentsFirst > .FirstBox {
+  height: 100%;
+  width: calc((100% / 3) * 2);
+}
+.ContentsFirst > .FirstBox > a {
+  height: 100%;
+  width: 100%;
+}
+.ContentsFirst > .FirstBox > a > img {
+  height: 100%;
+  width: 100%;
+}
+
+.ContentsFirst > .SecondBox {
+  height: 100%;
+  width: calc(100% / 3);
+  background: #f5f4f2;
+  padding: 50px 40px 0;
+}
+.ContentsFirst > .SecondBox > h3:first-child {
+  margin: 0 0 49px;
+  font-size: 24px;
+  line-height: 1;
+  color: #222222;
+  font-weight: 600;
+}
+.ContentsFirst > .SecondBox > h3:nth-child(2) {
+  margin: 0 0 49px;
+  font-size: 22px;
+  line-height: 32px;
+  color: #666666;
+  font-weight: 600;
+}
+.ContentsFirst > .SecondBox > input {
+  height: 40px;
+  width: 300px;
+  font-size: 16px;
+  padding: 0 57px 0 20px;
+  margin: 0 0 10px;
+  background: #ffffff
+    url(https://www.gong-cha.co.kr/view/gongcha/images/brandmain/btn_main_store_search.gif)
+    right 0 no-repeat;
+}
+.ContentsFirst > .SecondBox > button {
+  height: 50px;
+  width: 300px;
+  font-size: 15px;
+  line-height: 50px;
+  color: #ffffff;
+  background: #3b3230;
+}
+
+.ContentsSecond {
+  background: #292929;
+  height: calc(100% / 3);
+  width: 100%;
+  display: flex;
+}
+.ContentsSecond > .FirstBox {
+  height: 100%;
+  width: calc(100% / 3);
+  background: url(https://www.gong-cha.co.kr/view/gongcha/images/brandmain/brand_main_section3_img.jpg);
+}
+.ContentsSecond > .FirstBox {
+  padding: 45px;
+  height: 100%;
+  width: calc(100% / 3);
+  background: url(https://www.gong-cha.co.kr/view/gongcha/images/brandmain/brand_main_section3_img.jpg);
+}
+.ContentsSecond > .FirstBox > h3:nth-child(1) {
+  margin: 0 0 28px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #222222;
+}
+.ContentsSecond > .FirstBox > h3:nth-child(2) {
+  margin: 0 0 26px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #222222;
+}
+.ContentsSecond > .FirstBox > a {
+  color: #222222;
+  border-bottom: 1px solid #222222;
+}
+.ContentsSecond > .FirstBox > a:hover {
+  color: #ff6262;
+  border-bottom: 1px solid #ff6262;
+}
+
+.ContentsSecond > .SecondBox {
+  height: 100%;
+  width: calc((100% / 3) * 2);
+  background: url(https://www.gong-cha.co.kr/uploads/banner/20210728/MIG4fQtNx7kLVPja_20210728.png);
+}
+.ContentsSecond > .SecondBox > a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.ContentsLast {
+  background: #ffffff;
+  height: calc(100% / 3);
+  width: 100%;
+  display: flex;
+}
+
+.ContentsLast > .FirstBox {
+  height: 100%;
+  width: calc(100% / 3);
+  background: #ede6d6;
+  padding: 40px 0px 40px 40px;
+}
+.ContentsLast > .FirstBox > h3 {
+  margin: 0 0 50px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #222222;
+}
+.ContentsLast > .FirstBox > ul {
+  margin: 0 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ContentsLast > .FirstBox > ul > li:nth-child(1) {
+  width: 100px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #222222;
+  vertical-align: top;
+}
+.ContentsLast > .FirstBox > ul > li:nth-child(2) {
+  width: 20;
+  font-size: 15px;
+  line-height: 25px;
+  color: #666666;
+  vertical-align: top;
+  margin-bottom: 40px;
+}
+
+.ContentsLast > .FirstBox > ul > li:nth-child(3) {
+  width: 100px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #222222;
+  vertical-align: top;
+}
+.ContentsLast > .FirstBox > ul > li:nth-child(4) {
+  width: auto;
+  font-size: 15px;
+  line-height: 25px;
+  color: #666666;
+  vertical-align: top;
+}
+
+.ContentsLast > .FirstBox > button {
+  margin-right: 40px;
+  width: 300px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 50px;
+  color: #ffffff;
+  background: #6d5547;
+  text-align: center;
+}
+
+.ContentsLast > .SecondBox {
+  height: 100%;
+  width: calc(100% / 3);
+  background: white;
+}
+.ContentsLast > .SecondBox > a {
+  display: block;
+  width: 100%;
+  height: 350px;
+  background: url(https://www.gong-cha.co.kr/uploads/banner/20210705/cZf1XweupJiOE4UN_20210705.jpg);
+}
+.ContentsLast > .SecondBox > a > img {
+  width: 100%;
+  height: 100%;
+}
+.ContentsLast > .SecondBox > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.ContentsLast > .SecondBox > div > h3 {
+  display: block;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1;
+  color: #c30f30;
+  margin: 0 0 20px;
+}
+.ContentsLast > .SecondBox > div > a {
+  color: #777777;
+  border-bottom: 1px solid #777777;
+}
+.ContentsLast > .SecondBox > div > a:hover {
+  color: #e26f6f;
+  border-bottom: 1px solid #777777;
+}
+
+.ContentsLast > .ThirdBox {
+  height: 100%;
+  width: calc(100% / 3);
+  background: white;
+}

@@ -1,6 +1,9 @@
 .Contents {
   border: 2px solid red;
   margin-top: 112px;
-  height: 1000px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

@@ -16,25 +16,25 @@ const Footer = () => {
             <ul>
               <li>
                 {" "}
-                <a href="">회사소개</a>
+                <a href="/">회사소개</a>
               </li>
               <li>
-                <a href="">제휴제안</a>
+                <a href="/">제휴제안</a>
               </li>
               <li>
-                <a href="">고객센터</a>
+                <a href="/">고객센터</a>
               </li>
               <li>
-                <a href="">개인정보처리방침</a>
+                <a href="/">개인정보처리방침</a>
               </li>
               <li>
-                <a href="">이메일무단수집거부</a>
+                <a href="/">이메일무단수집거부</a>
               </li>
               <li>
-                <a href="">HOT-LINE</a>
+                <a href="/">HOT-LINE</a>
               </li>
               <li>
-                <a href="">사이트맵</a>
+                <a href="/">사이트맵</a>
               </li>
             </ul>
           </div>

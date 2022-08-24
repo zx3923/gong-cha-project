@@ -53,11 +53,17 @@
 .topBarMenu > ul > li > a:hover::after {
   width: 100%;
 }
-
 .ko {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.topBarMenu > ul > li > a:hover > .ko {
+  opacity: 1;
+}
+.topBarMenu > ul > li > a:hover > .en {
+  opacity: 0;
 }
 
 /* SNS topBarSns */
@@ -92,9 +98,14 @@
 
 .QuickMenu {
   position: fixed;
+  background: url(https://www.gong-cha.co.kr/view/gongcha/images/brand/quick_img_off.png);
   top: 50%;
   right: 30px;
   width: 79px;
+  height: 300px;
   margin: -230px 0 0;
   z-index: 1;
+}
+.QuickMenu:hover {
+  background: url(https://www.gong-cha.co.kr/view/gongcha/images/brand/quick_img_on.png);
 }

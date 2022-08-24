@@ -1,0 +1,60 @@
+.ContentsWrap {
+  display: flex;
+  justify-content: center;
+}
+.LeftContents {
+  width: 600px;
+  height: 255px;
+}
+.LeftContentsImg1 {
+  background: url(https://www.gong-cha.co.kr/view/gongcha/images/brandmain/brand_main_recipe_img1.jpg);
+}
+.LeftContentsImg2 {
+  background: url(https://www.gong-cha.co.kr/view/gongcha/images/brandmain/brand_main_recipe_img2.jpg);
+}
+.LeftContentsImg3 {
+  background: url(https://www.gong-cha.co.kr/view/gongcha/images/brandmain/brand_main_recipe_img5.jpg);
+}
+
+.RightContents {
+  width: 500px;
+  height: 255px;
+}
+
+.RightContents > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.RightContents > h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #993b42;
+  margin-bottom: 20px;
+}
+.RightContents > h4 {
+  word-break: break-word;
+  font-size: 15px;
+  line-height: 25px;
+  color: #444444;
+  margin-bottom: 25px;
+}
+
+.RightContents > button {
+  display: inline-block;
+  width: 152px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #993b42;
+  text-align: center;
+}
+
+.RightContents > button > span {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 33px;
+  color: #993b42;
+}
